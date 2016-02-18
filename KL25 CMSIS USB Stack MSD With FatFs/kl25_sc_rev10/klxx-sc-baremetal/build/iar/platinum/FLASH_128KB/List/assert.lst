@@ -1,0 +1,149 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.40.3.8902/W32 for ARM        30/Nov/2015  21:44:52
+# Copyright 1999-2015 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\src\common\assert.c
+#    Command line =  
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\src\common\assert.c" -D IAR -D
+#        FREEDOM -lCN "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD
+#        With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\List\"
+#        -lB "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\List\"
+#        -o "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\"
+#        --debug --endian=little --cpu=Cortex-M0+ -e --fpu=None --dlib_config
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.2\arm\INC\c\DLib_Config_Normal.h" -I "D:\My
+#        Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\projects\platinum\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\common\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\cpu\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\cpu\headers\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\drivers\llwu\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\drivers\lptmr\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\drivers\mcg\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\drivers\pmc\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\drivers\rcm\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\drivers\rtc\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\drivers\smc\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\drivers\uart\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\drivers\wdog\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\drivers\cmp\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\..\..\src\platforms\"
+#        -I "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\" -Oh
+#    List file    =  
+#        D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\List\assert.lst
+#    Object file  =  
+#        D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\assert.o
+#
+###############################################################################
+
+D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With FatFs\kl25_sc_rev10\klxx-sc-baremetal\src\common\assert.c
+      1          /*
+      2           * File:        assert.c
+      3           * Purpose:     Provide macro for software assertions
+      4           *
+      5           * Notes:       ASSERT macro defined in assert.h calls assert_failed()
+      6           */
+      7          
+      8          #include "common.h"
+      9          
+
+   \                                 In section .text, align 4, keep-with-next
+     10          const char ASSERT_FAILED_STR[] = "Assertion failed in %s at line %d\n";
+   \                     ASSERT_FAILED_STR:
+   \   00000000   0x41 0x73          DC8 "Assertion failed in %s at line %d\012"
+   \              0x73 0x65    
+   \              0x72 0x74    
+   \              0x69 0x6F    
+   \              0x6E 0x20    
+   \              0x66 0x61    
+   \              0x69 0x6C    
+   \              0x65 0x64    
+   \              0x20 0x69    
+   \              0x6E 0x20    
+   \              0x25 0x73    
+   \              0x20 0x61    
+   \              0x74 0x20    
+   \              0x6C 0x69    
+   \              0x6E 0x65    
+   \              0x20 0x25    
+   \              0x64 0x0A    
+   \              0x00         
+   \   00000023   0x00               DC8 0
+     11          
+     12          /********************************************************************/
+
+   \                                 In section .text, align 4, keep-with-next
+     13          void
+     14          assert_failed(char *file, int line)
+     15          {
+   \                     assert_failed: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     16              int i;
+     17              
+     18              printf(ASSERT_FAILED_STR, file, line);
+   \   00000002   0x000A             MOVS     R2,R1
+   \   00000004   0x0001             MOVS     R1,R0
+   \   00000006   0xBF00             Nop      
+   \   00000008   0x....             ADR.N    R0,ASSERT_FAILED_STR
+   \   0000000A   0x.... 0x....      BL       printf
+     19          
+     20              while (1)
+     21              {
+     22          //        platform_led_display(0xFF);
+     23                  for (i = 100000; i; i--) ;
+     24          //        platform_led_display(0x00);
+     25                  for (i = 100000; i; i--) ;
+   \                     ??assert_failed_0: (+1)
+   \   0000000E   0xE7FE             B        ??assert_failed_0
+     26              }
+     27          }
+     28          /********************************************************************/
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   assert_failed
+         8   -> printf
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      36  ASSERT_FAILED_STR
+      16  assert_failed
+
+ 
+ 52 bytes in section .text
+ 
+ 52 bytes of CODE memory
+
+Errors: none
+Warnings: none

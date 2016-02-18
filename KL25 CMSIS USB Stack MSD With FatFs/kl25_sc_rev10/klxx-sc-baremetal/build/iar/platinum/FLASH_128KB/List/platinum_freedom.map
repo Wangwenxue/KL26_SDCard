@@ -1,0 +1,295 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 30/Nov/2015  21:44:57
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Exe\platinum_freedom.out
+#    Map file     =  
+#        D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\List\platinum_freedom.map
+#    Command line =  
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\alloc.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\arm_cm0.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\assert.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\crt0.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\io.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\llwu.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\lptmr.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\mcg.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\memtest.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\platinum.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\pmc.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\printf.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\queue.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\rcm.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\rtc.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\smc.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\start.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\startup.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\stdlib.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\sysinit.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\uart.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\uif.o"
+#        "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj\vectors.o"
+#        -o "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Exe\platinum_freedom.out"
+#        --map "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\List\platinum_freedom.map"
+#        --config "D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\..\config
+#        files\128KB_Pflash.icf" --semihosting --entry __iar_program_start
+#        --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00020000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1ffff410 to 0x20003000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section          Kind        Address    Size  Object
+  -------          ----        -------    ----  ------
+"A1":                                    0x410
+  .intvec          const    0x00000000   0x410  vectors.o [1]
+                          - 0x00000410   0x410
+
+"A2":                                     0x18
+  .noinit          ro code  0x00000410    0x18  crt0.o [1]
+                          - 0x00000428    0x18
+
+"P1":                                   0x14ce
+  .text            ro code  0x00000428   0x558  printf.o [1]
+  .text            ro code  0x00000980    0xe0  I32DivModFast.o [5]
+  .text            ro code  0x00000a60    0x16  stdlib.o [1]
+  .text            ro code  0x00000a78     0x2  IntDivZer.o [5]
+  .text            ro code  0x00000a7c   0x3c4  start.o [1]
+  .text            ro code  0x00000e40    0x6c  startup.o [1]
+  .text            ro code  0x00000eac    0xc0  sysinit.o [1]
+  .text            ro code  0x00000f6c   0x2e8  rcm.o [1]
+  .text            ro code  0x00001254    0x34  platinum.o [1]
+  .text            ro code  0x00001288    0x5c  ABImemcpy.o [5]
+  .text            ro code  0x000012e4     0xc  arm_cm0.o [1]
+  .text            ro code  0x000012f0    0x4c  ABImemset.o [5]
+  .text            ro code  0x0000133c   0x228  mcg.o [1]
+  .text            ro code  0x00001564   0x108  uart.o [1]
+  .text            ro code  0x0000166c    0x1c  io.o [1]
+  .rodata          const    0x00001688   0x1a4  start.o [1]
+  .text            ro code  0x0000182c    0x3c  zero_init3.o [5]
+  .text            ro code  0x00001868    0x28  data_init.o [5]
+  .iar.init_table  const    0x00001890    0x10  - Linker created -
+  .text            ro code  0x000018a0    0x1a  cmain.o [5]
+  .text            ro code  0x000018ba     0x4  low_level_init.o [3]
+  .text            ro code  0x000018be     0x8  exit.o [3]
+  .text            ro code  0x000018c8     0xa  cexit.o [5]
+  .text            ro code  0x000018d4    0x14  exit.o [6]
+  .text            ro code  0x000018e8     0xc  cstartup_M.o [5]
+  .text            ro code  0x000018f4     0x2  vectors.o [1]
+  .rodata          const    0x000018f6     0x0  zero_init3.o [5]
+  CodeRelocate              0x000018f6     0x0  <Block>
+                          - 0x000018f6  0x14ce
+
+"P2":                                     0x14
+  .bss                      0x1ffff410    0x14  <Block>
+    .bss           zero     0x1ffff410    0x14  sysinit.o [1]
+  CodeRelocateRam           0x1ffff424     0x0  <Block>
+                          - 0x1ffff424    0x14
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x14:
+          0x1ffff410  0x14
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj: [1]
+    arm_cm0.o              12
+    crt0.o                 24
+    io.o                   28
+    mcg.o                 552
+    platinum.o             52
+    printf.o            1 368
+    rcm.o                 744
+    start.o               964      420
+    startup.o             108
+    stdlib.o               22
+    sysinit.o             192                20
+    uart.o                264
+    vectors.o               2    1 040
+    -------------------------------------------
+    Total:              4 332    1 460       20
+
+command line: [2]
+    -------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    exit.o                  8
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                 12
+
+m6M_tl.a: [4]
+    -------------------------------------------
+    Total:
+
+rt6M_tl.a: [5]
+    ABImemcpy.o            92
+    ABImemset.o            76
+    I32DivModFast.o       224
+    IntDivZer.o             2
+    cexit.o                10
+    cmain.o                26
+    cstartup_M.o           12
+    data_init.o            40
+    zero_init3.o           60
+    -------------------------------------------
+    Total:                542
+
+shb_l.a: [6]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    8
+    Linker created                  16
+-----------------------------------------------
+    Grand Total:        4 914    1 476       20
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1ffff410          --   Gb  - Linker created -
+.bss$$Limit             0x1ffff424          --   Gb  - Linker created -
+.data$$Base             0x00000000          --   Gb  - Linker created -
+.data_init$$Base        0x00000000          --   Gb  - Linker created -
+.data_init$$Limit       0x00000000          --   Gb  - Linker created -
+.iar.init_table$$Base   0x00001890          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x000018a0          --   Gb  - Linker created -
+?main                   0x000018a1         Code  Gb  cmain.o [5]
+CodeRelocate$$Base      0x000018f6          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x000018f6          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1ffff424          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1ffff424          --   Gb  - Linker created -
+Region$$Table$$Base     0x00001890          --   Gb  - Linker created -
+Region$$Table$$Limit    0x000018a0          --   Gb  - Linker created -
+__BOOT_STACK_ADDRESS {Abs}
+                        0x20002ff8          --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1ffff000          --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000          --   Gb  command line/config [2]
+__aeabi_idiv            0x000009ad         Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x00000a79         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x000009ad         Code  Gb  I32DivModFast.o [5]
+__aeabi_memclr          0x00001335         Code  Gb  ABImemset.o [5]
+__aeabi_memcpy          0x00001289         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x000012b1         Code  Wk  ABImemcpy.o [5]
+__aeabi_uidiv           0x000009b3         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x000009b3         Code  Gb  I32DivModFast.o [5]
+__cmain                 0x000018a1         Code  Gb  cmain.o [5]
+__exit                  0x000018d5   0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word      0x00001305         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x000012f1         Code  Gb  ABImemset.o [5]
+__iar_data_init3        0x00001869   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x000018e9         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x0000182d   0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init        0x000018bb    0x4  Code  Gb  low_level_init.o [3]
+__startup               0x00000411         Code  Gb  crt0.o [1]
+__vector_table          0x00000000  0x410  Data  Gb  vectors.o [1]
+_call_main              0x000018ad         Code  Gb  cmain.o [5]
+_exit                   0x000018c9         Code  Gb  cexit.o [5]
+_main                   0x000018b7         Code  Gb  cmain.o [5]
+common_startup          0x00000e41   0x6c  Code  Gb  startup.o [1]
+core_clk_khz            0x1ffff418    0x4  Data  Gb  sysinit.o [1]
+cpu_identify            0x00000aa1  0x13c  Code  Gb  start.o [1]
+default_isr             0x000018f5    0x2  Code  Gb  vectors.o [1]
+exit                    0x000018bf    0x8  Code  Gb  exit.o [3]
+in_char                 0x0000166d    0xa  Code  Gb  io.o [1]
+main                    0x00001255   0x14  Code  Gb  platinum.o [1]
+mcg_clk_hz              0x1ffff410    0x4  Data  Gb  sysinit.o [1]
+mcg_clk_khz             0x1ffff414    0x4  Data  Gb  sysinit.o [1]
+outSRS                  0x00000f6d  0x124  Code  Gb  rcm.o [1]
+out_char                0x00001677    0xc  Code  Gb  io.o [1]
+periph_clk_khz          0x1ffff41c    0x4  Data  Gb  sysinit.o [1]
+pll_init                0x0000133d  0x1ec  Code  Gb  mcg.o [1]
+printf                  0x0000095d   0x1e  Code  Gb  printf.o [1]
+printk                  0x0000052f  0x42e  Code  Gb  printf.o [1]
+printk_mknumstr         0x00000453   0x70  Code  Lc  printf.o [1]
+printk_pad_space        0x000004f9   0x36  Code  Lc  printf.o [1]
+printk_pad_zero         0x000004c3   0x36  Code  Lc  printf.o [1]
+printk_putc             0x00000429   0x2a  Code  Lc  printf.o [1]
+start                   0x00000a7d   0x24  Code  Gb  start.o [1]
+strlen                  0x00000a61   0x16  Code  Gb  stdlib.o [1]
+sysinit                 0x00000ead   0xa4  Code  Gb  sysinit.o [1]
+uart0_clk_khz           0x1ffff420    0x4  Data  Gb  sysinit.o [1]
+uart0_getchar           0x00001651    0x2  Code  Gb  uart.o [1]
+uart0_init              0x00001565   0xda  Code  Gb  uart.o [1]
+uart0_putchar           0x0000165f    0x2  Code  Gb  uart.o [1]
+write_vtor              0x000012e5    0x6  Code  Gb  arm_cm0.o [1]
+
+
+[1] = D:\My Project\ZhiyunKangkai\KL25 CMSIS USB Stack MSD With FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\platinum\FLASH_128KB\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  4 914 bytes of readonly  code memory
+  1 476 bytes of readonly  data memory
+     20 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

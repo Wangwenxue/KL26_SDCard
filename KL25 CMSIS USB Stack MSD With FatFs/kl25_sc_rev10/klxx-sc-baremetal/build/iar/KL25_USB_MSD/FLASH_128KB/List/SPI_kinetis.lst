@@ -1,0 +1,535 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.40.3.8902/W32 for ARM        18/Feb/2016  22:52:56
+# Copyright 1999-2015 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\src\projects\KL25_USB_MSD\SPI_SDCard\SPI_kinetis.c
+#    Command line =  
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\src\projects\KL25_USB_MSD\SPI_SDCard\SPI_kinetis.c"
+#        -D IAR -D FREEDOM -D SD_DISK_ENABLE -lCN "D:\My
+#        Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\List\"
+#        -lB "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\List\"
+#        -o "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\"
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        7.2\arm\INC\c\DLib_Config_Normal.h" -I "D:\My
+#        Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\common\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\cpu\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\cpu\headers\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\i2c\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\llwu\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\lptmr\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\mcg\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\pmc\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\rcm\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\rtc\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\smc\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\uart\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\wdog\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\cmp\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\platforms\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\" -I
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\CMSIS
+#        USB Stack\inc\" -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack
+#        MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\CMSIS
+#        USB Stack\Porting use\" -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB
+#        Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\SPI_SDCard\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\FATFS\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\FATFS\fsl_sd_disk\"
+#        -Ol
+#    List file    =  
+#        D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\List\SPI_kinetis.lst
+#    Object file  =  
+#        D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\SPI_kinetis.o
+#
+###############################################################################
+
+D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With FatFs\kl25_sc_rev10\klxx-sc-baremetal\src\projects\KL25_USB_MSD\SPI_SDCard\SPI_kinetis.c
+      1          /******************************************************************************
+      2           *  (c) copyright Freescale Semiconductor China Ltd. 2008
+      3           *  ALL RIGHTS RESERVED
+      4           *  File Name: SPI.C
+      5           *  Description: This file is to handle SPI communication
+      6           *  Assembler:  Codewarrior for HC(S)08 V6.1
+      7           *  Version: 2.0
+      8           *  Author: Patrick Yang
+      9           *  Location: Shanghai, P.R.China
+     10           *
+     11           * UPDATED HISTORY:
+     12           *
+     13           * REV   YYYY.MM.DD  AUTHOR        DESCRIPTION OF CHANGE
+     14           * ---   ----------  ------        ---------------------
+     15           * 1.0   2008.01.02  Patrick Yang  Initial version
+     16           * 2.0   2008.08.12  Jose Ruiz     Speed Change (x2)
+     17           ******************************************************************************/
+     18          /* Freescale  is  not  obligated  to  provide  any  support, upgrades or new */
+     19          /* releases  of  the Software. Freescale may make changes to the Software at */
+     20          /* any time, without any obligation to notify or provide updated versions of */
+     21          /* the  Software  to you. Freescale expressly disclaims any warranty for the */
+     22          /* Software.  The  Software is provided as is, without warranty of any kind, */
+     23          /* either  express  or  implied,  including, without limitation, the implied */
+     24          /* warranties  of  merchantability,  fitness  for  a  particular purpose, or */
+     25          /* non-infringement.  You  assume  the entire risk arising out of the use or */
+     26          /* performance of the Software, or any systems you design using the software */
+     27          /* (if  any).  Nothing  may  be construed as a warranty or representation by */
+     28          /* Freescale  that  the  Software  or  any derivative work developed with or */
+     29          /* incorporating  the  Software  will  be  free  from  infringement  of  the */
+     30          /* intellectual property rights of third parties. In no event will Freescale */
+     31          /* be  liable,  whether in contract, tort, or otherwise, for any incidental, */
+     32          /* special,  indirect, consequential or punitive damages, including, but not */
+     33          /* limited  to,  damages  for  any loss of use, loss of time, inconvenience, */
+     34          /* commercial loss, or lost profits, savings, or revenues to the full extent */
+     35          /* such  may be disclaimed by law. The Software is not fault tolerant and is */
+     36          /* not  designed,  manufactured  or  intended by Freescale for incorporation */
+     37          /* into  products intended for use or resale in on-line control equipment in */
+     38          /* hazardous, dangerous to life or potentially life-threatening environments */
+     39          /* requiring  fail-safe  performance,  such  as  in the operation of nuclear */
+     40          /* facilities,  aircraft  navigation  or  communication systems, air traffic */
+     41          /* control,  direct  life  support machines or weapons systems, in which the */
+     42          /* failure  of  products  could  lead  directly to death, personal injury or */
+     43          /* severe  physical  or  environmental  damage  (High  Risk Activities). You */
+     44          /* specifically  represent and warrant that you will not use the Software or */
+     45          /* any  derivative  work of the Software for High Risk Activities.           */
+     46          /* Freescale  and the Freescale logos are registered trademarks of Freescale */
+     47          /* Semiconductor Inc.                                                        */
+     48          /*****************************************************************************/
+     49          
+     50          /* Includes */
+     51          #include "SPI_kinetis.h"
+     52          
+     53          /* Global variable defining the baud rate; this variable can be touched by
+     54             SPI_Init() and SPI_HighRate() to change the baud rate from 375KHz (normal
+     55             baud rate) to 6 MHz (high rate) */
+     56          
+     57          /*********************************************************
+     58           * Name: SPI_Init
+     59           * Desc: Initialize SPI2 Module
+     60           * Parameter: None
+     61           * Return: None
+     62           **********************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+     63          void SPI_Init(void)
+     64          {
+     65          	/*Body*/	
+     66                  SIM_SCGC4 |= SIM_SCGC4_SPI0_MASK;
+   \                     SPI_Init: (+1)
+   \   00000000   0x....             LDR      R0,??DataTable5  ;; 0x40048034
+   \   00000002   0x6800             LDR      R0,[R0, #+0]
+   \   00000004   0x2180             MOVS     R1,#+128
+   \   00000006   0x03C9             LSLS     R1,R1,#+15       ;; #+4194304
+   \   00000008   0x4301             ORRS     R1,R1,R0
+   \   0000000A   0x....             LDR      R0,??DataTable5  ;; 0x40048034
+   \   0000000C   0x6001             STR      R1,[R0, #+0]
+     67                  
+     68                  SIM_SCGC5 |= SIM_SCGC5_PORTC_MASK;
+   \   0000000E   0x....             LDR      R0,??DataTable5_1  ;; 0x40048038
+   \   00000010   0x6800             LDR      R0,[R0, #+0]
+   \   00000012   0x2180             MOVS     R1,#+128
+   \   00000014   0x0109             LSLS     R1,R1,#+4        ;; #+2048
+   \   00000016   0x4301             ORRS     R1,R1,R0
+   \   00000018   0x....             LDR      R0,??DataTable5_1  ;; 0x40048038
+   \   0000001A   0x6001             STR      R1,[R0, #+0]
+     69                  
+     70                  //MISO
+     71          	PORTC_PCR7 =  PORT_PCR_MUX(2);
+   \   0000001C   0x2080             MOVS     R0,#+128
+   \   0000001E   0x0080             LSLS     R0,R0,#+2        ;; #+512
+   \   00000020   0x....             LDR      R1,??DataTable5_2  ;; 0x4004b01c
+   \   00000022   0x6008             STR      R0,[R1, #+0]
+     72                  //MOSI
+     73          	PORTC_PCR6 =  PORT_PCR_MUX(2);
+   \   00000024   0x2080             MOVS     R0,#+128
+   \   00000026   0x0080             LSLS     R0,R0,#+2        ;; #+512
+   \   00000028   0x....             LDR      R1,??DataTable5_3  ;; 0x4004b018
+   \   0000002A   0x6008             STR      R0,[R1, #+0]
+     74                  //SCK
+     75          	PORTC_PCR5 =  PORT_PCR_MUX(2);
+   \   0000002C   0x2080             MOVS     R0,#+128
+   \   0000002E   0x0080             LSLS     R0,R0,#+2        ;; #+512
+   \   00000030   0x....             LDR      R1,??DataTable5_4  ;; 0x4004b014
+   \   00000032   0x6008             STR      R0,[R1, #+0]
+     76                  //CS
+     77          	PORTC_PCR4 =  PORT_PCR_MUX(1);
+   \   00000034   0x2080             MOVS     R0,#+128
+   \   00000036   0x0040             LSLS     R0,R0,#+1        ;; #+256
+   \   00000038   0x....             LDR      R1,??DataTable5_5  ;; 0x4004b010
+   \   0000003A   0x6008             STR      R0,[R1, #+0]
+     78          
+     79          	GPIOC_PDDR |= (1<<4);
+   \   0000003C   0x....             LDR      R0,??DataTable5_6  ;; 0x400ff094
+   \   0000003E   0x6800             LDR      R0,[R0, #+0]
+   \   00000040   0x2110             MOVS     R1,#+16
+   \   00000042   0x4301             ORRS     R1,R1,R0
+   \   00000044   0x....             LDR      R0,??DataTable5_6  ;; 0x400ff094
+   \   00000046   0x6001             STR      R1,[R0, #+0]
+     80                  
+     81          	GPIOC_PDOR |= (1<<4);
+   \   00000048   0x....             LDR      R0,??DataTable5_7  ;; 0x400ff080
+   \   0000004A   0x6800             LDR      R0,[R0, #+0]
+   \   0000004C   0x2110             MOVS     R1,#+16
+   \   0000004E   0x4301             ORRS     R1,R1,R0
+   \   00000050   0x....             LDR      R0,??DataTable5_7  ;; 0x400ff080
+   \   00000052   0x6001             STR      R1,[R0, #+0]
+     82          	
+     83          	SPI0_C2 = SPI_C2_SPISWAI_MASK;     
+   \   00000054   0x2002             MOVS     R0,#+2
+   \   00000056   0x....             LDR      R1,??DataTable5_8  ;; 0x40076002
+   \   00000058   0x7008             STRB     R0,[R1, #+0]
+     84          	SPI0_C1 = SPI_C1_SPE_MASK | SPI_C1_MSTR_MASK | SPI_C1_CPHA_MASK | SPI_C1_CPOL_MASK | SPI_C1_SSOE_MASK;
+   \   0000005A   0x205E             MOVS     R0,#+94
+   \   0000005C   0x....             LDR      R1,??DataTable5_9  ;; 0x40076003
+   \   0000005E   0x7008             STRB     R0,[R1, #+0]
+     85                  
+     86                  
+     87          	/* 375KHz SPI clock for SD Card Initilization */
+     88          	SPI0_BR = SPI_BR_SPPR(1) | SPI_BR_SPR(5);             /* SPI Baud Rate = Busclock/((SPPR+1)<<(SPR+1)) */
+   \   00000060   0x2015             MOVS     R0,#+21
+   \   00000062   0x....             LDR      R1,??DataTable5_10  ;; 0x40076001
+   \   00000064   0x7008             STRB     R0,[R1, #+0]
+     89          }/*EndBody*/
+   \   00000066   0x4770             BX       LR               ;; return
+     90          
+     91          
+     92          /*********************************************************
+     93           * Name: SpiSendByte
+     94           * Desc: The byte received by SPI
+     95           * Parameter: None
+     96           * Return: Received byte
+     97           **********************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+     98          unsigned char SpiSendByte(unsigned char u8Data)
+     99          {
+   \                     SpiSendByte: (+1)
+   \   00000000   0xB500             PUSH     {LR}
+    100          	/*Body*/
+    101              while(!(SPI0_S & SPI_S_SPTEF_MASK));	
+   \                     ??SpiSendByte_0: (+1)
+   \   00000002   0x....             LDR      R1,??DataTable5_11  ;; 0x40076000
+   \   00000004   0x7809             LDRB     R1,[R1, #+0]
+   \   00000006   0x0689             LSLS     R1,R1,#+26
+   \   00000008   0xD5FB             BPL      ??SpiSendByte_0
+    102              SPI0_DL = u8Data;
+   \   0000000A   0x....             LDR      R1,??DataTable5_12  ;; 0x40076006
+   \   0000000C   0x7008             STRB     R0,[R1, #+0]
+    103              while(!(SPI0_S & SPI_S_SPRF_MASK));
+   \                     ??SpiSendByte_1: (+1)
+   \   0000000E   0x....             LDR      R0,??DataTable5_11  ;; 0x40076000
+   \   00000010   0x7800             LDRB     R0,[R0, #+0]
+   \   00000012   0x0600             LSLS     R0,R0,#+24
+   \   00000014   0xD5FB             BPL      ??SpiSendByte_1
+    104              return(SPI0_DL);
+   \   00000016   0x....             LDR      R0,??DataTable5_12  ;; 0x40076006
+   \   00000018   0x7800             LDRB     R0,[R0, #+0]
+   \   0000001A   0xB2C0             UXTB     R0,R0
+   \   0000001C   0xBD00             POP      {PC}             ;; return
+    105          		
+    106          }/*EndBody*/
+    107          
+    108          /*********************************************************
+    109           * Name: SpiSendWord
+    110           * Desc: The word received by SPI
+    111           * Parameter: None
+    112           * Return: Received byte
+    113           **********************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    114          unsigned short SpiSendWord(unsigned short u16Data)
+    115          {
+   \                     SpiSendWord: (+1)
+   \   00000000   0xB500             PUSH     {LR}
+    116          	/*Body*/
+    117              unsigned short temp;
+    118              while(!(SPI0_S & SPI_S_SPTEF_MASK));	
+   \                     ??SpiSendWord_0: (+1)
+   \   00000002   0x....             LDR      R1,??DataTable5_11  ;; 0x40076000
+   \   00000004   0x7809             LDRB     R1,[R1, #+0]
+   \   00000006   0x0689             LSLS     R1,R1,#+26
+   \   00000008   0xD5FB             BPL      ??SpiSendWord_0
+    119              SPI0_DL = (unsigned char)u16Data;
+   \   0000000A   0x0001             MOVS     R1,R0
+   \   0000000C   0x....             LDR      R2,??DataTable5_12  ;; 0x40076006
+   \   0000000E   0x7011             STRB     R1,[R2, #+0]
+    120              SPI0_DH = (unsigned char)(u16Data>>8);
+   \   00000010   0xB280             UXTH     R0,R0
+   \   00000012   0x0A00             LSRS     R0,R0,#+8
+   \   00000014   0x....             LDR      R1,??DataTable5_13  ;; 0x40076007
+   \   00000016   0x7008             STRB     R0,[R1, #+0]
+    121              while(!(SPI0_S & SPI_S_SPRF_MASK));
+   \                     ??SpiSendWord_1: (+1)
+   \   00000018   0x....             LDR      R0,??DataTable5_11  ;; 0x40076000
+   \   0000001A   0x7800             LDRB     R0,[R0, #+0]
+   \   0000001C   0x0600             LSLS     R0,R0,#+24
+   \   0000001E   0xD5FB             BPL      ??SpiSendWord_1
+    122              temp = SPI0_DH;
+   \   00000020   0x....             LDR      R0,??DataTable5_13  ;; 0x40076007
+   \   00000022   0x7800             LDRB     R0,[R0, #+0]
+   \   00000024   0xB2C0             UXTB     R0,R0
+    123              temp = temp << 8 | SPI0_DL;
+   \   00000026   0x0200             LSLS     R0,R0,#+8
+   \   00000028   0x....             LDR      R1,??DataTable5_12  ;; 0x40076006
+   \   0000002A   0x7809             LDRB     R1,[R1, #+0]
+   \   0000002C   0xB2C9             UXTB     R1,R1
+   \   0000002E   0x4308             ORRS     R0,R0,R1
+    124              return(temp);
+   \   00000030   0xB280             UXTH     R0,R0
+   \   00000032   0xBD00             POP      {PC}             ;; return
+    125          		
+    126          }/*EndBody*/
+    127          
+
+   \                                 In section .text, align 2, keep-with-next
+    128          unsigned int SpiSendFrame(unsigned char *in, unsigned char *out, unsigned int size)
+    129          {
+   \                     SpiSendFrame: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+   \   00000002   0x0014             MOVS     R4,R2
+    130            unsigned char * destination = out;
+   \   00000004   0x000D             MOVS     R5,R1
+    131            unsigned char * source = in;
+   \   00000006   0x0006             MOVS     R6,R0
+    132            if(out!=NULL)
+   \   00000008   0x2900             CMP      R1,#+0
+   \   0000000A   0xD009             BEQ      ??SpiSendFrame_0
+    133              do
+    134              {
+    135                *destination++ = SpiSendByte(*source++);
+   \                     ??SpiSendFrame_1: (+1)
+   \   0000000C   0x7830             LDRB     R0,[R6, #+0]
+   \   0000000E   0x.... 0x....      BL       SpiSendByte
+   \   00000012   0x1C76             ADDS     R6,R6,#+1
+   \   00000014   0x7028             STRB     R0,[R5, #+0]
+   \   00000016   0x1C6D             ADDS     R5,R5,#+1
+    136              }while(--size);
+   \   00000018   0x1E64             SUBS     R4,R4,#+1
+   \   0000001A   0x2C00             CMP      R4,#+0
+   \   0000001C   0xD1F6             BNE      ??SpiSendFrame_1
+   \   0000001E   0xE006             B        ??SpiSendFrame_2
+    137            else
+    138              do
+    139              {
+    140                SpiSendByte(*source++);
+   \                     ??SpiSendFrame_0: (+1)
+   \   00000020   0x7830             LDRB     R0,[R6, #+0]
+   \   00000022   0x.... 0x....      BL       SpiSendByte
+   \   00000026   0x1C76             ADDS     R6,R6,#+1
+    141              }while(--size);
+   \   00000028   0x1E64             SUBS     R4,R4,#+1
+   \   0000002A   0x2C00             CMP      R4,#+0
+   \   0000002C   0xD1F8             BNE      ??SpiSendFrame_0
+    142            
+    143              return 0;
+   \                     ??SpiSendFrame_2: (+1)
+   \   0000002E   0x2000             MOVS     R0,#+0
+   \   00000030   0xBD70             POP      {R4-R6,PC}       ;; return
+    144          }
+    145          
+    146          /*********************************************************
+    147           * Name: SpiHighRate
+    148           * Desc: Change SPI baud rate to high speed
+    149           * Parameter: None
+    150           * Return: None
+    151           **********************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    152          void SpiHighRate(void)
+    153          {
+    154            /*Body*/
+    155            /* SPI Baud Rate 6 MHz */
+    156            SPI0_BR = SPI_BR_SPPR(0) | SPI_BR_SPR(0);// SPI Baud Rate = Busclock/((SPPR+1)<<(SPR+1))
+   \                     SpiHighRate: (+1)
+   \   00000000   0x2000             MOVS     R0,#+0
+   \   00000002   0x....             LDR      R1,??DataTable5_10  ;; 0x40076001
+   \   00000004   0x7008             STRB     R0,[R1, #+0]
+    157          
+    158          }/*EndBody*/
+   \   00000006   0x4770             BX       LR               ;; return
+    159          
+    160          
+    161          /*********************************************************
+    162           * Name: SPI_set_SS
+    163           * Desc: Change SPI_CS pin state to Low
+    164           * Parameter: expected state
+    165           * Return: None
+    166           **********************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    167          void SpiCsLow(void)
+    168          {
+    169          	GPIOC_PDOR &= ~(1<<4);
+   \                     SpiCsLow: (+1)
+   \   00000000   0x....             LDR      R0,??DataTable5_7  ;; 0x400ff080
+   \   00000002   0x6800             LDR      R0,[R0, #+0]
+   \   00000004   0x2110             MOVS     R1,#+16
+   \   00000006   0x4388             BICS     R0,R0,R1
+   \   00000008   0x....             LDR      R1,??DataTable5_7  ;; 0x400ff080
+   \   0000000A   0x6008             STR      R0,[R1, #+0]
+    170          }
+   \   0000000C   0x4770             BX       LR               ;; return
+    171          /*********************************************************
+    172           * Name: SPI_clr_SS
+    173           * Desc: Change SPI_CS pin state to High
+    174           * Parameter: expected state
+    175           * Return: None
+    176           **********************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    177          void SpiCsHigh(void)
+    178          {
+   \                     SpiCsHigh: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    179          	GPIOC_PDOR |= (1<<4);
+   \   00000002   0x....             LDR      R0,??DataTable5_7  ;; 0x400ff080
+   \   00000004   0x6800             LDR      R0,[R0, #+0]
+   \   00000006   0x2110             MOVS     R1,#+16
+   \   00000008   0x4301             ORRS     R1,R1,R0
+   \   0000000A   0x....             LDR      R0,??DataTable5_7  ;; 0x400ff080
+   \   0000000C   0x6001             STR      R1,[R0, #+0]
+    180                  
+    181                  SpiSendByte(0xFF);
+   \   0000000E   0x20FF             MOVS     R0,#+255
+   \   00000010   0x.... 0x....      BL       SpiSendByte
+    182          }
+   \   00000014   0xBD01             POP      {R0,PC}          ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5:
+   \   00000000   0x40048034         DC32     0x40048034
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_1:
+   \   00000000   0x40048038         DC32     0x40048038
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_2:
+   \   00000000   0x4004B01C         DC32     0x4004b01c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_3:
+   \   00000000   0x4004B018         DC32     0x4004b018
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_4:
+   \   00000000   0x4004B014         DC32     0x4004b014
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_5:
+   \   00000000   0x4004B010         DC32     0x4004b010
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_6:
+   \   00000000   0x400FF094         DC32     0x400ff094
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_7:
+   \   00000000   0x400FF080         DC32     0x400ff080
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_8:
+   \   00000000   0x40076002         DC32     0x40076002
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_9:
+   \   00000000   0x40076003         DC32     0x40076003
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_10:
+   \   00000000   0x40076001         DC32     0x40076001
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_11:
+   \   00000000   0x40076000         DC32     0x40076000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_12:
+   \   00000000   0x40076006         DC32     0x40076006
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_13:
+   \   00000000   0x40076007         DC32     0x40076007
+    183          /*EOF*/
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   SPI_Init
+       8   SpiCsHigh
+         8   -> SpiSendByte
+       0   SpiCsLow
+       0   SpiHighRate
+       4   SpiSendByte
+      16   SpiSendFrame
+        16   -> SpiSendByte
+       4   SpiSendWord
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable5
+       4  ??DataTable5_1
+       4  ??DataTable5_10
+       4  ??DataTable5_11
+       4  ??DataTable5_12
+       4  ??DataTable5_13
+       4  ??DataTable5_2
+       4  ??DataTable5_3
+       4  ??DataTable5_4
+       4  ??DataTable5_5
+       4  ??DataTable5_6
+       4  ??DataTable5_7
+       4  ??DataTable5_8
+       4  ??DataTable5_9
+     104  SPI_Init
+      22  SpiCsHigh
+      14  SpiCsLow
+       8  SpiHighRate
+      30  SpiSendByte
+      50  SpiSendFrame
+      52  SpiSendWord
+
+ 
+ 336 bytes in section .text
+ 
+ 336 bytes of CODE memory
+
+Errors: none
+Warnings: none

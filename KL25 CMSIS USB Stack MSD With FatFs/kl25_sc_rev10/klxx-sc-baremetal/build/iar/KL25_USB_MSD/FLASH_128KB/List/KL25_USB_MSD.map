@@ -1,0 +1,810 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 18/Feb/2016  23:23:04
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Exe\KL25_USB_MSD.out
+#    Map file     =  
+#        D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\List\KL25_USB_MSD.map
+#    Command line =  
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\alloc.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\arm_cm0.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\assert.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\ccsbcs.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\crt0.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\diskio.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\fatdemo.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\ff.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\fsl_sdcard_spi.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\fsl_sdspi_disk.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\i2c.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\io.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\llwu.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\lptmr.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\main.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\mcg.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\memtest.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\pmc.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\printf.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\queue.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\rcm.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\rtc.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\smc.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\SPI_kinetis.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\start.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\startup.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\stdlib.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\sysinit.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\uart.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\uif.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\usb_lib.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\usbd_core.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\usbd_core_msc.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\usbd_KL25.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\usbd_msc.o"
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\vectors.o"
+#        -o "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Exe\KL25_USB_MSD.out"
+#        --map "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\List\KL25_USB_MSD.map"
+#        --config "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\config
+#        files\128KB_Pflash.icf" --semihosting --entry __iar_program_start
+#        --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00020000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1ffff410 to 0x20003000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"A2":                                         0x18
+  .noinit              ro code  0x00000410    0x18  crt0.o [1]
+                              - 0x00000428    0x18
+
+"P1":                                       0x7abb
+  .text                ro code  0x00000428  0x2460  ff.o [1]
+  .text                ro code  0x00002888    0xe0  I32DivModFast.o [5]
+  .text                ro code  0x00002968    0x94  diskio.o [1]
+  .text                ro code  0x000029fc    0x9c  ccsbcs.o [1]
+  .text                ro code  0x00002a98    0xf0  alloc.o [1]
+  .text                ro code  0x00002b88     0x2  IntDivZer.o [5]
+  .rodata              const    0x00002b8a     0x2  usb_lib.o [1]
+  .text                ro code  0x00002b8c   0x1e8  fsl_sdspi_disk.o [1]
+  .text                ro code  0x00002d74   0x960  fsl_sdcard_spi.o [1]
+  .text                ro code  0x000036d4    0x5c  ABImemcpy.o [5]
+  .text                ro code  0x00003730    0x54  ABImemset.o [5]
+  .text                ro code  0x00003784   0x118  SPI_kinetis.o [1]
+  .text                ro code  0x0000389c    0x3c  stdlib.o [1]
+  .text                ro code  0x000038d8   0xe72  usbd_msc.o [1]
+  .rodata              const    0x0000474a     0x1  usb_lib.o [1]
+  .rodata              const    0x0000474b     0x1  usb_lib.o [1]
+  .text                ro code  0x0000474c   0x700  usbd_KL25.o [1]
+  .text                ro code  0x00004e4c    0xfc  main.o [1]
+  .text                ro code  0x00004f48    0x54  arm_cm0.o [1]
+  .text                ro code  0x00004f9c   0xb1c  usbd_core.o [1]
+  .text                ro code  0x00005ab8   0x4b8  printf.o [1]
+  .text                ro code  0x00005f70   0x304  fatdemo.o [1]
+  .text                ro code  0x00006274    0x1c  usb_lib.o [1]
+  .text                ro code  0x00006290    0xa8  usbd_core_msc.o [1]
+  .text                ro code  0x00006338   0x2f0  mcg.o [1]
+  .text                ro code  0x00006628   0x294  start.o [1]
+  .text                ro code  0x000068bc    0xa4  startup.o [1]
+  .text                ro code  0x00006960   0x114  sysinit.o [1]
+  .text                ro code  0x00006a74   0x1b8  rcm.o [1]
+  .text                ro code  0x00006c2c   0x15c  uart.o [1]
+  .rodata              const    0x00006d88   0x1e0  ccsbcs.o [1]
+  .rodata              const    0x00006f68   0x1e0  ccsbcs.o [1]
+  .rodata              const    0x00007148   0x100  ccsbcs.o [1]
+  .rodata              const    0x00007248    0xd0  fatdemo.o [1]
+  .rodata              const    0x00007318    0x80  ff.o [1]
+  .rodata              const    0x00007398    0x58  usb_lib.o [1]
+  .rodata              const    0x000073f0    0x50  fatdemo.o [1]
+  .rodata              const    0x00007440    0x40  fatdemo.o [1]
+  .rodata              const    0x00007480    0x40  fsl_sdcard_spi.o [1]
+  .rodata              const    0x000074c0    0x40  usb_lib.o [1]
+  .rodata              const    0x00007500    0x3c  fatdemo.o [1]
+  .rodata              const    0x0000753c    0x3c  start.o [1]
+  .rodata              const    0x00007578    0x3c  start.o [1]
+  .rodata              const    0x000075b4    0x3c  start.o [1]
+  .rodata              const    0x000075f0    0x3c  start.o [1]
+  .rodata              const    0x0000762c    0x3c  start.o [1]
+  .rodata              const    0x00007668    0x3c  start.o [1]
+  .text                ro code  0x000076a4    0x3c  zero_init3.o [5]
+  .rodata              const    0x000076e0    0x38  arm_cm0.o [1]
+  .rodata              const    0x00007718    0x34  fatdemo.o [1]
+  .rodata              const    0x0000774c    0x34  fatdemo.o [1]
+  .rodata              const    0x00007780    0x30  fatdemo.o [1]
+  .rodata              const    0x000077b0    0x30  rcm.o [1]
+  .rodata              const    0x000077e0    0x2c  fatdemo.o [1]
+  .rodata              const    0x0000780c    0x2c  start.o [1]
+  .rodata              const    0x00007838    0x2c  start.o [1]
+  .rodata              const    0x00007864    0x2c  start.o [1]
+  .rodata              const    0x00007890    0x28  rcm.o [1]
+  .rodata              const    0x000078b8    0x28  rcm.o [1]
+  .rodata              const    0x000078e0    0x28  start.o [1]
+  .rodata              const    0x00007908    0x28  start.o [1]
+  .text                ro code  0x00007930    0x28  data_init.o [5]
+  .rodata              const    0x00007958    0x24  fatdemo.o [1]
+  .rodata              const    0x0000797c    0x24  rcm.o [1]
+  .rodata              const    0x000079a0    0x24  usb_lib.o [1]
+  .iar.init_table      const    0x000079c4    0x10  - Linker created -
+  .rodata              const    0x000079d4    0x20  fatdemo.o [1]
+  .rodata              const    0x000079f4    0x20  fatdemo.o [1]
+  .rodata              const    0x00007a14    0x20  main.o [1]
+  .rodata              const    0x00007a34    0x20  rcm.o [1]
+  .rodata              const    0x00007a54    0x20  start.o [1]
+  .rodata              const    0x00007a74    0x20  usb_lib.o [1]
+  .rodata              const    0x00007a94    0x1c  fatdemo.o [1]
+  .rodata              const    0x00007ab0    0x1c  fatdemo.o [1]
+  .rodata              const    0x00007acc    0x1c  fatdemo.o [1]
+  .rodata              const    0x00007ae8    0x1c  main.o [1]
+  .rodata              const    0x00007b04    0x1c  rcm.o [1]
+  .rodata              const    0x00007b20    0x1c  rcm.o [1]
+  .rodata              const    0x00007b3c    0x1c  rcm.o [1]
+  .rodata              const    0x00007b58    0x1c  start.o [1]
+  .data_init                    0x00007b74    0x1c  <Block>
+    Initializer bytes  const    0x00007b74    0x1c  <for .data-1>
+  .text                ro code  0x00007b90    0x1a  cmain.o [5]
+  .text                ro code  0x00007baa     0x4  low_level_init.o [3]
+  .text                ro code  0x00007bae     0x8  exit.o [3]
+  .rodata              const    0x00007bb6     0x1  usb_lib.o [1]
+  .rodata              const    0x00007bb7     0x1  usb_lib.o [1]
+  .text                ro code  0x00007bb8     0xa  cexit.o [5]
+  .rodata              const    0x00007bc2     0x1  usb_lib.o [1]
+  .rodata              const    0x00007bc3     0x1  usb_lib.o [1]
+  .text                ro code  0x00007bc4    0x14  exit.o [6]
+  .rodata              const    0x00007bd8    0x18  fatdemo.o [1]
+  .rodata              const    0x00007bf0    0x18  fatdemo.o [1]
+  .rodata              const    0x00007c08    0x18  fatdemo.o [1]
+  .rodata              const    0x00007c20    0x18  rcm.o [1]
+  .rodata              const    0x00007c38    0x18  rcm.o [1]
+  .rodata              const    0x00007c50    0x14  fatdemo.o [1]
+  .rodata              const    0x00007c64    0x14  main.o [1]
+  .rodata              const    0x00007c78    0x14  rcm.o [1]
+  .rodata              const    0x00007c8c    0x14  rcm.o [1]
+  .rodata              const    0x00007ca0    0x14  start.o [1]
+  .rodata              const    0x00007cb4    0x14  start.o [1]
+  .rodata              const    0x00007cc8    0x14  start.o [1]
+  .rodata              const    0x00007cdc    0x14  start.o [1]
+  .rodata              const    0x00007cf0    0x14  start.o [1]
+  .rodata              const    0x00007d04    0x14  start.o [1]
+  .rodata              const    0x00007d18    0x14  start.o [1]
+  .rodata              const    0x00007d2c    0x14  start.o [1]
+  .rodata              const    0x00007d40    0x14  start.o [1]
+  .rodata              const    0x00007d54    0x14  usb_lib.o [1]
+  .text                ro code  0x00007d68    0x14  io.o [1]
+  .rodata              const    0x00007d7c    0x10  fatdemo.o [1]
+  .rodata              const    0x00007d8c    0x10  ff.o [1]
+  .rodata              const    0x00007d9c    0x10  fsl_sdcard_spi.o [1]
+  .rodata              const    0x00007dac    0x10  fsl_sdcard_spi.o [1]
+  .rodata              const    0x00007dbc    0x10  rcm.o [1]
+  .rodata              const    0x00007dcc    0x10  start.o [1]
+  .rodata              const    0x00007ddc    0x10  start.o [1]
+  .rodata              const    0x00007dec    0x10  start.o [1]
+  .rodata              const    0x00007dfc     0xc  ff.o [1]
+  .rodata              const    0x00007e08     0xc  rcm.o [1]
+  .rodata              const    0x00007e14     0xc  rcm.o [1]
+  .rodata              const    0x00007e20     0xc  rcm.o [1]
+  .rodata              const    0x00007e2c     0xc  rcm.o [1]
+  .rodata              const    0x00007e38     0xc  rcm.o [1]
+  .rodata              const    0x00007e44     0xc  start.o [1]
+  .rodata              const    0x00007e50     0xc  start.o [1]
+  .rodata              const    0x00007e5c     0xc  start.o [1]
+  .rodata              const    0x00007e68     0xc  start.o [1]
+  .text                ro code  0x00007e74     0xc  cstartup_M.o [5]
+  .rodata              const    0x00007e80     0x8  ff.o [1]
+  .rodata              const    0x00007e88     0x8  start.o [1]
+  .rodata              const    0x00007e90     0x8  start.o [1]
+  .rodata              const    0x00007e98     0x8  start.o [1]
+  .rodata              const    0x00007ea0     0x8  start.o [1]
+  .rodata              const    0x00007ea8     0x8  start.o [1]
+  .rodata              const    0x00007eb0     0x8  start.o [1]
+  .rodata              const    0x00007eb8     0x4  usb_lib.o [1]
+  .rodata              const    0x00007ebc     0x4  usb_lib.o [1]
+  .rodata              const    0x00007ec0     0x4  usb_lib.o [1]
+  .rodata              const    0x00007ec4     0x4  usb_lib.o [1]
+  .rodata              const    0x00007ec8     0x4  usb_lib.o [1]
+  .rodata              const    0x00007ecc     0x4  usb_lib.o [1]
+  .rodata              const    0x00007ed0     0x4  usb_lib.o [1]
+  .rodata              const    0x00007ed4     0x4  usb_lib.o [1]
+  .rodata              const    0x00007ed8     0x4  usb_lib.o [1]
+  .text                ro code  0x00007edc     0x2  vectors.o [1]
+  .rodata              const    0x00007ede     0x1  usb_lib.o [1]
+  .rodata              const    0x00007edf     0x1  usb_lib.o [1]
+  .rodata              const    0x00007ee0     0x1  usb_lib.o [1]
+  .rodata              const    0x00007ee1     0x1  usb_lib.o [1]
+  .rodata              const    0x00007ee2     0x1  usb_lib.o [1]
+  .rodata              const    0x00007ee3     0x0  zero_init3.o [5]
+  CodeRelocate                  0x00007ee3     0x0  <Block>
+                              - 0x00007ee3  0x7abb
+
+"P2":                                       0x1538
+  .data                         0x1ffff410    0x1c  <Block>
+    .data-1                     0x1ffff410    0x1c  <Init block>
+      .data            inited   0x1ffff410     0x4  fatdemo.o [1]
+      .data            inited   0x1ffff414    0x10  fatdemo.o [1]
+      .data            inited   0x1ffff424     0x4  usb_lib.o [1]
+      .data            inited   0x1ffff428     0x4  usbd_KL25.o [1]
+  .bss                          0x1ffff600   0xd18  <Block>
+    .bss               zero     0x1ffff600    0x60  usbd_KL25.o [1]
+    .bss               zero     0x1ffff660    0x10  alloc.o [1]
+    .bss               zero     0x1ffff670     0x4  alloc.o [1]
+    .bss               zero     0x1ffff674   0x448  fatdemo.o [1]
+    .bss               zero     0x1ffffabc     0x4  fatdemo.o [1]
+    .bss               zero     0x1ffffac0     0x4  fatdemo.o [1]
+    .bss               zero     0x1ffffac4    0x24  fatdemo.o [1]
+    .bss               zero     0x1ffffae8     0x4  fatdemo.o [1]
+    .bss               zero     0x1ffffaec     0x8  ff.o [1]
+    .bss               zero     0x1ffffaf4     0x4  ff.o [1]
+    .bss               zero     0x1ffffaf8    0x44  fsl_sdcard_spi.o [1]
+    .bss               zero     0x1ffffb3c     0x4  fsl_sdspi_disk.o [1]
+    .bss               zero     0x1ffffb40   0x200  main.o [1]
+    .bss               zero     0x1ffffd40     0x4  sysinit.o [1]
+    .bss               zero     0x1ffffd44     0x4  sysinit.o [1]
+    .bss               zero     0x1ffffd48     0x4  sysinit.o [1]
+    .bss               zero     0x1ffffd4c     0x4  sysinit.o [1]
+    .bss               zero     0x1ffffd50     0x4  sysinit.o [1]
+    .bss               zero     0x1ffffd54    0x20  usb_lib.o [1]
+    .bss               zero     0x1ffffd74    0x40  usb_lib.o [1]
+    .bss               zero     0x1ffffdb4     0x4  usbd_core.o [1]
+    .bss               zero     0x1ffffdb8     0x4  usbd_core.o [1]
+    .bss               zero     0x1ffffdbc     0x4  usbd_core.o [1]
+    .bss               zero     0x1ffffdc0     0x8  usbd_core.o [1]
+    .bss               zero     0x1ffffdc8     0x8  usbd_core.o [1]
+    .bss               zero     0x1ffffdd0   0x300  usbd_KL25.o [1]
+    .bss               zero     0x200000d0     0x4  usbd_KL25.o [1]
+    .bss               zero     0x200000d4     0x4  usbd_msc.o [1]
+    .bss               zero     0x200000d8     0x4  usbd_msc.o [1]
+    .bss               zero     0x200000dc     0x4  usbd_msc.o [1]
+    .bss               zero     0x200000e0     0x4  usbd_msc.o [1]
+    .bss               zero     0x200000e4     0x4  usbd_msc.o [1]
+    .bss               zero     0x200000e8     0x4  usbd_msc.o [1]
+    .bss               zero     0x200000ec    0x20  usbd_msc.o [1]
+    .bss               zero     0x2000010c    0x10  usbd_msc.o [1]
+    .bss               zero     0x2000011c     0x4  usbd_msc.o [1]
+    .bss               zero     0x20000120     0x4  usbd_msc.o [1]
+    .bss               zero     0x20000124     0x4  usbd_msc.o [1]
+    .bss               zero     0x20000128     0x4  usbd_msc.o [1]
+    .bss               zero     0x2000012c     0x4  usbd_msc.o [1]
+    .bss               zero     0x20000130     0x4  usbd_msc.o [1]
+    .bss               zero     0x20000134     0x2  ff.o [1]
+    .bss               zero     0x20000136     0x2  ff.o [1]
+    .bss               zero     0x20000138     0x2  usbd_core.o [1]
+    .bss               zero     0x2000013a     0x1  ff.o [1]
+    .bss               zero     0x2000013b     0x1  main.o [1]
+    .bss               zero     0x2000013c     0x1  usb_lib.o [1]
+    .bss               zero     0x2000013d     0x1  usbd_core.o [1]
+    .bss               zero     0x2000013e     0x1  usbd_core.o [1]
+    .bss               zero     0x2000013f     0x1  usbd_core.o [1]
+    .bss               zero     0x20000140     0x1  usbd_core.o [1]
+    .bss               zero     0x20000141     0x1  usbd_core.o [1]
+    .bss               zero     0x20000142     0x1  usbd_msc.o [1]
+  CodeRelocateRam               0x20000144     0x0  <Block>
+  HEAP                          0x20000148   0x800  <Block>
+    HEAP               uninit   0x20000148   0x800  <Block tail>
+                              - 0x20000948  0x1538
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xb43:
+          0x1ffff600  0xb43
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj: [1]
+    SPI_kinetis.o         280
+    alloc.o               240                20
+    arm_cm0.o              84       56
+    ccsbcs.o              156    1 216
+    crt0.o                 24
+    diskio.o              148
+    fatdemo.o             772      920    1 164
+    ff.o                9 312      164       17
+    fsl_sdcard_spi.o    2 400       96       68
+    fsl_sdspi_disk.o      488                 4
+    io.o                   20
+    main.o                252       80      513
+    mcg.o                 752
+    printf.o            1 208
+    rcm.o                 440      444
+    start.o               660      956
+    startup.o             164
+    stdlib.o               60
+    sysinit.o             276                20
+    uart.o                348
+    usb_lib.o              28      293      101
+    usbd_KL25.o         1 792        4      872
+    usbd_core.o         2 844                35
+    usbd_core_msc.o       168
+    usbd_msc.o          3 698                97
+    vectors.o               2    1 040
+    -------------------------------------------
+    Total:             26 616    5 269    2 911
+
+command line: [2]
+    -------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    exit.o                  8
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                 12
+
+m6M_tl.a: [4]
+    -------------------------------------------
+    Total:
+
+rt6M_tl.a: [5]
+    ABImemcpy.o            92
+    ABImemset.o            84
+    I32DivModFast.o       224
+    IntDivZer.o             2
+    cexit.o                10
+    cmain.o                26
+    cstartup_M.o           12
+    data_init.o            40
+    zero_init3.o           60
+    -------------------------------------------
+    Total:                550
+
+shb_l.a: [6]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Linker created                  16    2 048
+-----------------------------------------------
+    Grand Total:       27 198    5 285    4 959
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1ffff600          --   Gb  - Linker created -
+.bss$$Limit             0x20000144          --   Gb  - Linker created -
+.data$$Base             0x1ffff410          --   Gb  - Linker created -
+.data$$Limit            0x1ffff42c          --   Gb  - Linker created -
+.data_init$$Base        0x00007b74          --   Gb  - Linker created -
+.data_init$$Limit       0x00007b90          --   Gb  - Linker created -
+.iar.init_table$$Base   0x000079c4          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x000079d4          --   Gb  - Linker created -
+?main                   0x00007b91         Code  Gb  cmain.o [5]
+BD                      0x1ffff600   0x60  Data  Gb  usbd_KL25.o [1]
+Block                   0x20000124    0x4  Data  Gb  usbd_msc.o [1]
+BlockBuf                0x1ffffb40  0x200  Data  Gb  main.o [1]
+BulkLen                 0x20000130    0x4  Data  Gb  usbd_msc.o [1]
+BulkStage               0x20000142    0x1  Data  Gb  usbd_msc.o [1]
+BytesWriten             0x1ffffae8    0x4  Data  Gb  fatdemo.o [1]
+CodeRelocate$$Base      0x00007ee3          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00007ee3          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x20000144          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x20000144          --   Gb  - Linker created -
+CurrVol                 0x2000013a    0x1  Data  Lc  ff.o [1]
+Data1                   0x1ffff428    0x4  Data  Gb  usbd_KL25.o [1]
+Delayms                 0x00004ea1   0x1c  Code  Gb  main.o [1]
+Display_File_Info       0x00005f71   0x9e  Code  Lc  fatdemo.o [1]
+EPBuf                   0x1ffffdd0  0x300  Data  Gb  usbd_KL25.o [1]
+ExCvt                   0x00007318   0x80  Data  Lc  ff.o [1]
+FatFs                   0x1ffff674  0x448  Data  Gb  fatdemo.o [1]
+FatFs                   0x1ffffaec    0x8  Data  Lc  ff.o [1]
+Fsid                    0x20000134    0x2  Data  Lc  ff.o [1]
+HEAP$$Base              0x20000148          --   Gb  - Linker created -
+HEAP$$Limit             0x20000948          --   Gb  - Linker created -
+Length                  0x2000012c    0x4  Data  Gb  usbd_msc.o [1]
+LfnOfs                  0x00007d8c   0x10  Data  Lc  ff.o [1]
+List_Directory          0x0000600f   0x7e  Code  Lc  fatdemo.o [1]
+MemOK                   0x20000120    0x4  Data  Gb  usbd_msc.o [1]
+NumOfFreeClusters       0x1ffffac0    0x4  Data  Gb  fatdemo.o [1]
+Offset                  0x20000128    0x4  Data  Gb  usbd_msc.o [1]
+OutEpSize               0x200000d0    0x4  Data  Gb  usbd_KL25.o [1]
+Region$$Table$$Base     0x000079c4          --   Gb  - Linker created -
+Region$$Table$$Limit    0x000079d4          --   Gb  - Linker created -
+SDGetCapacity           0x00002d75    0xe  Code  Gb  fsl_sdcard_spi.o [1]
+SDSPI_DRV_AppSendOpCond
+                        0x000030af   0x74  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_CheckCapacity
+                        0x0000330b   0x8a  Code  Gb  fsl_sdcard_spi.o [1]
+SDSPI_DRV_CheckReadOnly
+                        0x000036a9   0x2c  Code  Gb  fsl_sdcard_spi.o [1]
+SDSPI_DRV_GenerateCRC7  0x00002d83   0x44  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_GoIdle        0x0000301d   0x56  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_Init          0x00003439   0xf0  Code  Gb  fsl_sdcard_spi.o [1]
+SDSPI_DRV_InitSd        0x000033d1   0x54  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_Read          0x0000324f   0x56  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_ReadBlocks    0x00003551   0x8c  Code  Gb  fsl_sdcard_spi.o [1]
+SDSPI_DRV_ReadOcr       0x00003171   0x5c  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_SendApplicationCmd
+                        0x00003073   0x3c  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_SendCid       0x00003395   0x3c  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_SendCommand   0x00002e01  0x110  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_SendCommand_NoDeassert
+                        0x00002f11  0x10c  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_SendCsd       0x000032a5   0x3c  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_SendIfCond    0x00003123   0x4e  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_SetBlockSize  0x000032e1   0x2a  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_StopTransmission
+                        0x00003529   0x28  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_WaitReady     0x00002dc7   0x2c  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_Write         0x000031cd   0x82  Code  Lc  fsl_sdcard_spi.o [1]
+SDSPI_DRV_WriteBlocks   0x000035dd   0xcc  Code  Gb  fsl_sdcard_spi.o [1]
+SPI_Init                0x00003785   0x68  Code  Gb  SPI_kinetis.o [1]
+SpiCsHigh               0x00003853   0x16  Code  Gb  SPI_kinetis.o [1]
+SpiCsLow                0x00003845    0xe  Code  Gb  SPI_kinetis.o [1]
+SpiHighRate             0x0000383d    0x8  Code  Gb  SPI_kinetis.o [1]
+SpiSendByte             0x000037ed   0x1e  Code  Gb  SPI_kinetis.o [1]
+SpiSendFrame            0x0000380b   0x32  Code  Gb  SPI_kinetis.o [1]
+Tbl                     0x00007148  0x100  Data  Lc  ccsbcs.o [1]
+TextToWrite             0x1ffff414   0x10  Data  Gb  fatdemo.o [1]
+USB0_IRQHandler         0x00004c91  0x188  Code  Gb  usbd_KL25.o [1]
+USBD_AltSetting         0x2000013c    0x1  Data  Gb  usb_lib.o [1]
+USBD_ClrStallEP         0x00004ad7   0x24  Code  Gb  usbd_KL25.o [1]
+USBD_ConfigDescriptor   0x000079a0   0x24  Data  Wk  usb_lib.o [1]
+USBD_ConfigDescriptor_HS
+                        0x00007ee0    0x1  Data  Wk  usb_lib.o [1]
+USBD_ConfigEP           0x000048ed   0x22  Code  Gb  usbd_KL25.o [1]
+USBD_Configuration      0x2000013e    0x1  Data  Gb  usbd_core.o [1]
+USBD_Configure          0x000048eb    0x2  Code  Gb  usbd_KL25.o [1]
+USBD_Connect            0x0000481d   0x34  Code  Gb  usbd_KL25.o [1]
+USBD_DataInStage        0x00004ffd   0x46  Code  Gb  usbd_core.o [1]
+USBD_DataOutStage       0x00005043   0x22  Code  Gb  usbd_core.o [1]
+USBD_DeviceAddress      0x2000013d    0x1  Data  Gb  usbd_core.o [1]
+USBD_DeviceDescriptor   0x00007d54   0x14  Data  Wk  usb_lib.o [1]
+USBD_DeviceQualifier    0x00007ede    0x1  Data  Wk  usb_lib.o [1]
+USBD_DeviceQualifier_HS
+                        0x00007edf    0x1  Data  Wk  usb_lib.o [1]
+USBD_DeviceStatus       0x20000138    0x2  Data  Gb  usbd_core.o [1]
+USBD_DirCtrlEP          0x0000490f    0x2  Code  Gb  usbd_KL25.o [1]
+USBD_DisableEP          0x00004947   0x36  Code  Gb  usbd_KL25.o [1]
+USBD_EP0Buf             0x1ffffd54   0x20  Data  Gb  usb_lib.o [1]
+USBD_EP0Data            0x1ffffdc0    0x8  Data  Gb  usbd_core.o [1]
+USBD_EnableEP           0x00004911   0x36  Code  Gb  usbd_KL25.o [1]
+USBD_EndPoint0          0x00005829  0x272  Code  Gb  usbd_core.o [1]
+USBD_EndPoint0_Out_CDC_ReqToIF
+                        0x00006285    0x4  Code  Gb  usb_lib.o [1]
+USBD_EndPoint0_Out_HID_ReqToIF
+                        0x0000627d    0x4  Code  Gb  usb_lib.o [1]
+USBD_EndPoint0_Setup_CDC_ReqToIF
+                        0x00006281    0x4  Code  Gb  usb_lib.o [1]
+USBD_EndPoint0_Setup_HID_ReqToIF
+                        0x00006279    0x4  Code  Gb  usb_lib.o [1]
+USBD_EndPoint0_Setup_MSC_ReqToIF
+                        0x00006299   0x8e  Code  Wk  usbd_core_msc.o [1]
+USBD_EndPointHalt       0x1ffffdb8    0x4  Data  Gb  usbd_core.o [1]
+USBD_EndPointMask       0x1ffffdb4    0x4  Data  Gb  usbd_core.o [1]
+USBD_EndPointStall      0x1ffffdbc    0x4  Data  Gb  usbd_core.o [1]
+USBD_HighSpeed          0x20000140    0x1  Data  Gb  usbd_core.o [1]
+USBD_Init               0x0000478f   0x8e  Code  Gb  usbd_KL25.o [1]
+USBD_IntrEna            0x00004765    0xa  Code  Gb  usbd_KL25.o [1]
+USBD_MSC_ATAPassThrough
+                        0x0000432d   0x66  Code  Gb  usbd_msc.o [1]
+USBD_MSC_BlockBuf       0x200000e8    0x4  Data  Gb  usbd_msc.o [1]
+USBD_MSC_BlockCount     0x200000e4    0x4  Data  Gb  usbd_msc.o [1]
+USBD_MSC_BlockGroup     0x200000e0    0x4  Data  Gb  usbd_msc.o [1]
+USBD_MSC_BlockSize      0x200000dc    0x4  Data  Gb  usbd_msc.o [1]
+USBD_MSC_BulkBuf        0x1ffffd74   0x40  Data  Gb  usb_lib.o [1]
+USBD_MSC_BulkIn         0x0000463d   0x4a  Code  Gb  usbd_msc.o [1]
+USBD_MSC_BulkOut        0x0000469d   0x4c  Code  Gb  usbd_msc.o [1]
+USBD_MSC_CBW            0x200000ec   0x20  Data  Gb  usbd_msc.o [1]
+USBD_MSC_CSW            0x2000010c   0x10  Data  Gb  usbd_msc.o [1]
+USBD_MSC_CheckMedia     0x00003977   0x4a  Code  Gb  usbd_msc.o [1]
+USBD_MSC_ClrStallEP     0x00003905   0x52  Code  Gb  usbd_msc.o [1]
+USBD_MSC_DataInFormat   0x00003e75   0x3a  Code  Gb  usbd_msc.o [1]
+USBD_MSC_DataInTransfer
+                        0x00003eb9   0x4c  Code  Gb  usbd_msc.o [1]
+USBD_MSC_EP_BULKIN_Event
+                        0x000046e9    0x8  Code  Gb  usbd_msc.o [1]
+USBD_MSC_EP_BULKOUT_Event
+                        0x000046f1   0x16  Code  Gb  usbd_msc.o [1]
+USBD_MSC_EP_BULK_Event  0x00004731   0x1a  Code  Gb  usbd_msc.o [1]
+USBD_MSC_GetCBW         0x00004409  0x214  Code  Gb  usbd_msc.o [1]
+USBD_MSC_GetMaxLUN      0x0000396d    0xa  Code  Gb  usbd_msc.o [1]
+USBD_MSC_Inquiry        0x00004057   0x70  Code  Gb  usbd_msc.o [1]
+USBD_MSC_MediaReady     0x200000d4    0x4  Data  Gb  usbd_msc.o [1]
+USBD_MSC_MediaReadyEx   0x2000011c    0x4  Data  Gb  usbd_msc.o [1]
+USBD_MSC_MediaRemoval   0x00004109   0x1e  Code  Gb  usbd_msc.o [1]
+USBD_MSC_MemoryRead     0x000039c1  0x114  Code  Gb  usbd_msc.o [1]
+USBD_MSC_MemoryVerify   0x00003c5d  0x126  Code  Gb  usbd_msc.o [1]
+USBD_MSC_MemoryWrite    0x00003b01  0x130  Code  Gb  usbd_msc.o [1]
+USBD_MSC_ModeSense10    0x0000418d   0x6e  Code  Gb  usbd_msc.o [1]
+USBD_MSC_ModeSense6     0x00004131   0x56  Code  Gb  usbd_msc.o [1]
+USBD_MSC_RWSetup        0x00003d95   0xe0  Code  Gb  usbd_msc.o [1]
+USBD_MSC_ReadCapacity   0x00004205   0x72  Code  Gb  usbd_msc.o [1]
+USBD_MSC_ReadFormatCapacity
+                        0x0000427d   0x9a  Code  Gb  usbd_msc.o [1]
+USBD_MSC_ReadOnly       0x200000d8    0x4  Data  Gb  usbd_msc.o [1]
+USBD_MSC_RequestSense   0x00003f6d   0xea  Code  Gb  usbd_msc.o [1]
+USBD_MSC_Reset          0x00003957   0x16  Code  Gb  usbd_msc.o [1]
+USBD_MSC_ServiceActionIn16
+                        0x00004399   0x50  Code  Gb  usbd_msc.o [1]
+USBD_MSC_SetCSW         0x0000461d   0x20  Code  Gb  usbd_msc.o [1]
+USBD_MSC_SetStallEP     0x000038db   0x2a  Code  Gb  usbd_msc.o [1]
+USBD_MSC_StartStopUnit  0x000040cd   0x38  Code  Gb  usbd_msc.o [1]
+USBD_MSC_SynchronizeCache
+                        0x00004317    0xe  Code  Gb  usbd_msc.o [1]
+USBD_MSC_TestUnitReady  0x00003f19   0x48  Code  Gb  usbd_msc.o [1]
+USBD_NumInterfaces      0x2000013f    0x1  Data  Gb  usbd_core.o [1]
+USBD_OtherSpeedConfigDescriptor
+                        0x00007ee1    0x1  Data  Wk  usb_lib.o [1]
+USBD_OtherSpeedConfigDescriptor_HS
+                        0x00007ee2    0x1  Data  Wk  usb_lib.o [1]
+USBD_P_Configure_Event  0x00007ed0    0x4  Data  Gb  usb_lib.o [1]
+USBD_P_EP               0x000074c0   0x40  Data  Gb  usb_lib.o [1]
+USBD_P_Error_Event      0x00007ecc    0x4  Data  Gb  usb_lib.o [1]
+USBD_P_Feature_Event    0x00007ed8    0x4  Data  Gb  usb_lib.o [1]
+USBD_P_Interface_Event  0x00007ed4    0x4  Data  Gb  usb_lib.o [1]
+USBD_P_Reset_Event      0x00007ebc    0x4  Data  Gb  usb_lib.o [1]
+USBD_P_Resume_Event     0x00007ec4    0x4  Data  Gb  usb_lib.o [1]
+USBD_P_SOF_Event        0x00007ec8    0x4  Data  Gb  usb_lib.o [1]
+USBD_P_Suspend_Event    0x00007ec0    0x4  Data  Gb  usb_lib.o [1]
+USBD_ReadEP             0x00004b21   0xf6  Code  Gb  usbd_KL25.o [1]
+USBD_ReqClrFeature_MSC  0x00006291    0x8  Code  Wk  usbd_core_msc.o [1]
+USBD_ReqGetConfiguration
+                        0x00005439   0x1c  Code  Gb  usbd_core.o [1]
+USBD_ReqGetDescriptor   0x00005269  0x1d0  Code  Gb  usbd_core.o [1]
+USBD_ReqGetDescriptor_HID
+                        0x00006275    0x4  Code  Gb  usb_lib.o [1]
+USBD_ReqGetInterface    0x0000563d   0x3a  Code  Gb  usbd_core.o [1]
+USBD_ReqGetStatus       0x0000507f   0xaa  Code  Gb  usbd_core.o [1]
+USBD_ReqSetAddress      0x0000521d   0x22  Code  Gb  usbd_core.o [1]
+USBD_ReqSetClrFeature   0x0000512d   0xdc  Code  Gb  usbd_core.o [1]
+USBD_ReqSetConfiguration
+                        0x0000548d  0x1ac  Code  Gb  usbd_core.o [1]
+USBD_ReqSetInterface    0x000056a5  0x14e  Code  Gb  usbd_core.o [1]
+USBD_Reset              0x00004851   0x6c  Code  Gb  usbd_KL25.o [1]
+USBD_ResetEP            0x000049b1  0x104  Code  Gb  usbd_KL25.o [1]
+USBD_Resume             0x000048cb    0xe  Code  Gb  usbd_KL25.o [1]
+USBD_SetAddress         0x000048db   0x10  Code  Gb  usbd_KL25.o [1]
+USBD_SetStallEP         0x00004abd   0x1a  Code  Gb  usbd_KL25.o [1]
+USBD_SetupPacket        0x1ffffdc8    0x8  Data  Gb  usbd_core.o [1]
+USBD_SetupStage         0x00004ff1    0xc  Code  Gb  usbd_core.o [1]
+USBD_StatusInStage      0x00005065    0xe  Code  Gb  usbd_core.o [1]
+USBD_StatusOutStage     0x00005073    0xc  Code  Gb  usbd_core.o [1]
+USBD_StringDescriptor   0x00007398   0x58  Data  Wk  usb_lib.o [1]
+USBD_Suspend            0x000048bd    0xe  Code  Gb  usbd_KL25.o [1]
+USBD_WakeUpCfg          0x000048d9    0x2  Code  Gb  usbd_KL25.o [1]
+USBD_WriteEP            0x00004c17   0x68  Code  Gb  usbd_KL25.o [1]
+USBD_ZLP                0x20000141    0x1  Data  Gb  usbd_core.o [1]
+USB_ClockInit           0x0000476f   0x20  Code  Gb  usbd_KL25.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x20002ff8          --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1ffff000          --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000          --   Gb  command line/config [2]
+__aeabi_idiv            0x000028b5         Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x00002b89         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x000028b5         Code  Gb  I32DivModFast.o [5]
+__aeabi_memcpy          0x000036d5         Code  Gb  ABImemcpy.o [5]
+__aeabi_memset          0x00003731         Code  Gb  ABImemset.o [5]
+__aeabi_uidiv           0x000028bb         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x000028bb         Code  Gb  I32DivModFast.o [5]
+__cmain                 0x00007b91         Code  Gb  cmain.o [5]
+__exit                  0x00007bc5   0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word      0x00003751         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x0000373d         Code  Gb  ABImemset.o [5]
+__iar_data_init3        0x00007931   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x00007e75         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x000076a5   0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init        0x00007bab    0x4  Code  Gb  low_level_init.o [3]
+__startup               0x00000411         Code  Gb  crt0.o [1]
+__vector_table          0x00000000  0x410  Data  Gb  vectors.o [1]
+_call_main              0x00007b9d         Code  Gb  cmain.o [5]
+_exit                   0x00007bb9         Code  Gb  cexit.o [5]
+_main                   0x00007ba7         Code  Gb  cmain.o [5]
+base                    0x1ffff660   0x10  Data  Lc  alloc.o [1]
+buff_validation         0x0000048d   0x48  Code  Gb  ff.o [1]
+check_fs                0x00001b85   0x82  Code  Lc  ff.o [1]
+chk_chr                 0x00000543   0x16  Code  Lc  ff.o [1]
+chk_mounted             0x00001c21  0x3dc  Code  Lc  ff.o [1]
+clear_buff              0x000004d5   0x22  Code  Gb  ff.o [1]
+clear_dirty2            0x00000503    0xc  Code  Gb  ff.o [1]
+clust2sect              0x00000889   0x1a  Code  Lc  ff.o [1]
+cmp_lfn                 0x000010fb   0x88  Code  Lc  ff.o [1]
+common_startup          0x000068bd   0xa4  Code  Gb  startup.o [1]
+convert_ptr             0x00000471   0x1c  Code  Gb  ff.o [1]
+core_clk_khz            0x1ffffd48    0x4  Data  Gb  sysinit.o [1]
+cpu_identify            0x0000664d  0x1d0  Code  Gb  start.o [1]
+create_chain            0x00000b69   0xb6  Code  Lc  ff.o [1]
+create_chain_for_clusts
+                        0x00000c1f  0x1ea  Code  Lc  ff.o [1]
+create_name             0x000016bd  0x320  Code  Lc  ff.o [1]
+default_isr             0x00007edd    0x2  Code  Gb  vectors.o [1]
+dir_alloc               0x0000103f   0x7c  Code  Lc  ff.o [1]
+dir_find                0x0000131b  0x142  Code  Lc  ff.o [1]
+dir_next                0x00000ec1  0x17e  Code  Lc  ff.o [1]
+dir_read                0x0000145d   0xd6  Code  Lc  ff.o [1]
+dir_register            0x0000153d  0x17a  Code  Lc  ff.o [1]
+dir_sdi                 0x00000e0d   0xb4  Code  Lc  ff.o [1]
+disk_initialize         0x00002969   0x1a  Code  Gb  diskio.o [1]
+disk_ioctl              0x000029d9   0x1a  Code  Gb  diskio.o [1]
+disk_read               0x0000299d   0x1e  Code  Gb  diskio.o [1]
+disk_status             0x00002983   0x1a  Code  Gb  diskio.o [1]
+disk_write              0x000029bb   0x1e  Code  Gb  diskio.o [1]
+enable_irq              0x00004f4f   0x3e  Code  Gb  arm_cm0.o [1]
+entry_start_clust       0x1ffffaf4    0x4  Data  Gb  ff.o [1]
+entry_start_free_index  0x20000136    0x2  Data  Gb  ff.o [1]
+exit                    0x00007baf    0x8  Code  Gb  exit.o [3]
+f_chdrive               0x00002637   0x14  Code  Gb  ff.o [1]
+f_close                 0x0000261f   0x18  Code  Gb  ff.o [1]
+f_file                  0x1ffffac4   0x24  Data  Gb  fatdemo.o [1]
+f_getfree               0x00002785   0xf4  Code  Gb  ff.o [1]
+f_mount                 0x00002033   0x3e  Code  Gb  ff.o [1]
+f_open                  0x00002081  0x1ca  Code  Gb  ff.o [1]
+f_opendir               0x00002655   0xae  Code  Gb  ff.o [1]
+f_readdir               0x00002703   0x82  Code  Gb  ff.o [1]
+f_sync                  0x0000258f   0x90  Code  Gb  ff.o [1]
+f_write                 0x00002265  0x32a  Code  Gb  ff.o [1]
+fatdemo                 0x0000608d  0x176  Code  Gb  fatdemo.o [1]
+ff_convert              0x000029fd   0x52  Code  Gb  ccsbcs.o [1]
+ff_memalloc             0x00002879    0x8  Code  Gb  ff.o [1]
+ff_memfree              0x00002881    0x8  Code  Gb  ff.o [1]
+ff_wtoupper             0x00002a4f   0x3c  Code  Gb  ccsbcs.o [1]
+fit_lfn                 0x000011eb   0x72  Code  Lc  ff.o [1]
+follow_path             0x00001ae7   0x9e  Code  Lc  ff.o [1]
+free                    0x00002a99   0x6c  Code  Gb  alloc.o [1]
+freep                   0x1ffff670    0x4  Data  Lc  alloc.o [1]
+fs                      0x1ffffabc    0x4  Data  Gb  fatdemo.o [1]
+ft                      0x1ffff410    0x4  Data  Gb  fatdemo.o [1]
+g_card                  0x1ffffaf8   0x44  Data  Gb  fsl_sdcard_spi.o [1]
+g_card_initialized      0x1ffffb3c    0x4  Data  Gb  fsl_sdspi_disk.o [1]
+g_transpeedru           0x00007d9c   0x10  Data  Lc  fsl_sdcard_spi.o [1]
+g_transpeedtv           0x00007480   0x40  Data  Lc  fsl_sdcard_spi.o [1]
+gen_numname             0x0000126d   0x8c  Code  Lc  ff.o [1]
+get_fat                 0x000008a3   0xf8  Code  Lc  ff.o [1]
+get_fattime             0x000029f3    0x4  Code  Gb  diskio.o [1]
+get_fileinfo            0x000019e1  0x106  Code  Lc  ff.o [1]
+get_sectorprev          0x000004f7    0xc  Code  Gb  ff.o [1]
+ld_clust                0x000010bb   0x24  Code  Lc  ff.o [1]
+main                    0x00004ebd   0x5a  Code  Gb  main.o [1]
+malloc                  0x00002b05   0x72  Code  Gb  alloc.o [1]
+mcg_clk_hz              0x1ffffd40    0x4  Data  Gb  sysinit.o [1]
+mcg_clk_khz             0x1ffffd44    0x4  Data  Gb  sysinit.o [1]
+mem_cmp                 0x00000453   0x1e  Code  Lc  ff.o [1]
+mem_cpy                 0x00000429   0x16  Code  Lc  ff.o [1]
+mem_set                 0x0000043f   0x14  Code  Lc  ff.o [1]
+memset                  0x000038bb   0x1e  Code  Gb  stdlib.o [1]
+move_window             0x000006d9   0x8a  Code  Lc  ff.o [1]
+outSRS                  0x00006a75  0x1b8  Code  Gb  rcm.o [1]
+out_char                0x00007d69    0xe  Code  Gb  io.o [1]
+periph_clk_khz          0x1ffffd4c    0x4  Data  Gb  sysinit.o [1]
+pick_lfn                0x00001183   0x68  Code  Lc  ff.o [1]
+pll_init                0x00006339  0x2a2  Code  Gb  mcg.o [1]
+printf                  0x00005f4d   0x1e  Code  Gb  printf.o [1]
+printk                  0x00005b9f  0x3ae  Code  Gb  printf.o [1]
+printk_mknumstr         0x00005ae5   0x7e  Code  Lc  printf.o [1]
+printk_pad_space        0x00005b81   0x1e  Code  Lc  printf.o [1]
+printk_pad_zero         0x00005b63   0x1e  Code  Lc  printf.o [1]
+printk_putc             0x00005ab9   0x2c  Code  Lc  printf.o [1]
+protected_and           0x0000474d    0x8  Code  Lc  usbd_KL25.o [1]
+protected_or            0x00004755    0x8  Code  Lc  usbd_KL25.o [1]
+protected_xor           0x0000475d    0x8  Code  Lc  usbd_KL25.o [1]
+put_fat                 0x0000099b  0x160  Code  Lc  ff.o [1]
+remove_chain            0x00000afb   0x6e  Code  Lc  ff.o [1]
+reset_all_states        0x00002d1f    0x8  Code  Lc  fsl_sdspi_disk.o [1]
+sdcard_disk_initialize  0x00002d27   0x3c  Code  Gb  fsl_sdspi_disk.o [1]
+sdcard_disk_ioctl       0x00002bf5  0x11a  Code  Gb  fsl_sdspi_disk.o [1]
+sdcard_disk_read        0x00002bc1   0x34  Code  Gb  fsl_sdspi_disk.o [1]
+sdcard_disk_status      0x00002d0f   0x10  Code  Gb  fsl_sdspi_disk.o [1]
+sdcard_disk_write       0x00002b8d   0x34  Code  Gb  fsl_sdspi_disk.o [1]
+set_dirty               0x00000527   0x1c  Code  Gb  ff.o [1]
+set_sectorprev          0x0000050f   0x18  Code  Gb  ff.o [1]
+st_clust                0x000010df   0x1c  Code  Lc  ff.o [1]
+start                   0x00006629   0x24  Code  Gb  start.o [1]
+strlen                  0x0000389d   0x1e  Code  Gb  stdlib.o [1]
+sum_sfn                 0x000012f9   0x22  Code  Lc  ff.o [1]
+sync_fs                 0x00000763  0x122  Code  Lc  ff.o [1]
+sync_winindex           0x00000559  0x180  Code  Lc  ff.o [1]
+sysinit                 0x00006961   0xdc  Code  Gb  sysinit.o [1]
+uart0_clk_khz           0x1ffffd50    0x4  Data  Gb  sysinit.o [1]
+uart0_init              0x00006c2d  0x12a  Code  Gb  uart.o [1]
+uart0_putchar           0x00006d7d    0xc  Code  Gb  uart.o [1]
+usb_state               0x2000013b    0x1  Data  Gb  main.o [1]
+usbd_class_init         0x00006289    0x8  Code  Gb  usb_lib.o [1]
+usbd_configured         0x00004fdf   0x12  Code  Gb  usbd_core.o [1]
+usbd_connect            0x00004faf    0x8  Code  Gb  usbd_core.o [1]
+usbd_hs_enable          0x0000474b    0x1  Data  Gb  usb_lib.o [1]
+usbd_if_num             0x00002b8a    0x2  Data  Gb  usb_lib.o [1]
+usbd_init               0x00004f9d   0x12  Code  Gb  usbd_core.o [1]
+usbd_max_packet0        0x00007bb6    0x1  Data  Gb  usb_lib.o [1]
+usbd_msc_ep_bulkin      0x00007bc2    0x1  Data  Gb  usb_lib.o [1]
+usbd_msc_ep_bulkout     0x00007bc3    0x1  Data  Gb  usb_lib.o [1]
+usbd_msc_if_num         0x00007bb7    0x1  Data  Gb  usb_lib.o [1]
+usbd_msc_init           0x00004e4d   0x26  Code  Gb  main.o [1]
+usbd_msc_inquiry_data   0x1ffff424    0x4  Data  Gb  usb_lib.o [1]
+usbd_msc_maxpacketsize  0x00007eb8    0x4  Data  Gb  usb_lib.o [1]
+usbd_msc_read_sect      0x00004e73   0x16  Code  Gb  main.o [1]
+usbd_msc_start_stop     0x000038d9    0x2  Code  Wk  usbd_msc.o [1]
+usbd_msc_write_sect     0x00004e89   0x16  Code  Gb  main.o [1]
+usbd_power              0x0000474a    0x1  Data  Gb  usb_lib.o [1]
+usbd_reset_core         0x00004fb7   0x28  Code  Gb  usbd_core.o [1]
+validate                0x00001ffd   0x36  Code  Lc  ff.o [1]
+write_vtor              0x00004f49    0x6  Code  Gb  arm_cm0.o [1]
+
+
+[1] = D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  27 198 bytes of readonly  code memory
+   5 285 bytes of readonly  data memory
+   4 959 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

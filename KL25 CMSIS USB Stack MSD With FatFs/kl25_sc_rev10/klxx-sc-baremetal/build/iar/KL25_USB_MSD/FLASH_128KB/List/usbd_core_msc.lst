@@ -1,0 +1,277 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.40.3.8902/W32 for ARM        18/Feb/2016  22:53:03
+# Copyright 1999-2015 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\src\projects\KL25_USB_MSD\CMSIS
+#        USB Stack\src\usbd_core_msc.c
+#    Command line =  
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\src\projects\KL25_USB_MSD\CMSIS
+#        USB Stack\src\usbd_core_msc.c" -D IAR -D FREEDOM -D SD_DISK_ENABLE
+#        -lCN "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\List\"
+#        -lB "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\List\"
+#        -o "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\"
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M0+ -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        7.2\arm\INC\c\DLib_Config_Normal.h" -I "D:\My
+#        Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\common\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\cpu\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\cpu\headers\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\i2c\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\llwu\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\lptmr\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\mcg\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\pmc\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\rcm\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\rtc\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\smc\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\uart\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\wdog\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\drivers\cmp\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\platforms\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\" -I
+#        "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\CMSIS
+#        USB Stack\inc\" -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack
+#        MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\CMSIS
+#        USB Stack\Porting use\" -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB
+#        Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\SPI_SDCard\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\FATFS\"
+#        -I "D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\..\..\..\src\projects\KL25_USB_MSD\FATFS\fsl_sd_disk\"
+#        -Ol
+#    List file    =  
+#        D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\List\usbd_core_msc.lst
+#    Object file  =  
+#        D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With
+#        FatFs\kl25_sc_rev10\klxx-sc-baremetal\build\iar\KL25_USB_MSD\FLASH_128KB\Obj\usbd_core_msc.o
+#
+###############################################################################
+
+D:\My Project\SDCardJicheng\KL25 CMSIS USB Stack MSD With FatFs\kl25_sc_rev10\klxx-sc-baremetal\src\projects\KL25_USB_MSD\CMSIS USB Stack\src\usbd_core_msc.c
+      1          /* CMSIS-DAP Interface Firmware
+      2           * Copyright (c) 2009-2013 ARM Limited
+      3           *
+      4           * Licensed under the Apache License, Version 2.0 (the "License");
+      5           * you may not use this file except in compliance with the License.
+      6           * You may obtain a copy of the License at
+      7           *
+      8           *     http://www.apache.org/licenses/LICENSE-2.0
+      9           *
+     10           * Unless required by applicable law or agreed to in writing, software
+     11           * distributed under the License is distributed on an "AS IS" BASIS,
+     12           * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     13           * See the License for the specific language governing permissions and
+     14           * limitations under the License.
+     15           */
+     16          //#include <RTL.h>
+     17          #include <rl_usb.h>
+     18          #include <string.h>
+     19          #include "usb_for_lib.h"
+     20          
+     21          
+     22          /*
+     23           *  Clear Feature USB Device Request - MSC specific handling
+     24           *    Parameters:      EPNum: Endpoint number
+     25           *    Return Value:    None
+     26           */
+     27          
+
+   \                                 In section .text, align 2, keep-with-next
+     28          __weak void USBD_ReqClrFeature_MSC (U32 EPNum) {
+   \                     USBD_ReqClrFeature_MSC: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     29            USBD_MSC_ClrStallEP (EPNum);
+   \   00000002   0x.... 0x....      BL       USBD_MSC_ClrStallEP
+     30          }
+   \   00000006   0xBD01             POP      {R0,PC}          ;; return
+     31          
+     32          
+     33          /*
+     34           *  USB Device Endpoint 0 Event Callback - MSC specific handling (Setup Request To Interface)
+     35           *    Parameters:      none
+     36           *    Return Value:    TRUE - Setup class request ok, FALSE - Setup class request not supported
+     37           */
+     38          
+
+   \                                 In section .text, align 2, keep-with-next
+     39          __weak BOOL USBD_EndPoint0_Setup_MSC_ReqToIF (void) {
+   \                     USBD_EndPoint0_Setup_MSC_ReqToIF: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     40            if (USBD_SetupPacket.wIndexL == usbd_msc_if_num) {         /* IF number correct? */
+   \   00000002   0x....             LDR      R0,??DataTable0
+   \   00000004   0x7900             LDRB     R0,[R0, #+4]
+   \   00000006   0x....             LDR      R1,??DataTable0_1
+   \   00000008   0x7809             LDRB     R1,[R1, #+0]
+   \   0000000A   0x4288             CMP      R0,R1
+   \   0000000C   0xD13D             BNE      ??USBD_EndPoint0_Setup_MSC_ReqToIF_0
+     41              switch (USBD_SetupPacket.bRequest) {
+   \   0000000E   0x....             LDR      R0,??DataTable0
+   \   00000010   0x7840             LDRB     R0,[R0, #+1]
+   \   00000012   0x28FE             CMP      R0,#+254
+   \   00000014   0xD01C             BEQ      ??USBD_EndPoint0_Setup_MSC_ReqToIF_1
+   \   00000016   0x28FF             CMP      R0,#+255
+   \   00000018   0xD137             BNE      ??USBD_EndPoint0_Setup_MSC_ReqToIF_0
+     42                case MSC_REQUEST_RESET:
+     43                  if ((USBD_SetupPacket.wValue   == 0) &&              /* RESET with invalid parameters -> STALL */
+     44                      (USBD_SetupPacket.wLength  == 0)) {
+   \                     ??USBD_EndPoint0_Setup_MSC_ReqToIF_2: (+1)
+   \   0000001A   0x....             LDR      R1,??DataTable0
+   \   0000001C   0x7888             LDRB     R0,[R1, #+2]
+   \   0000001E   0x78CA             LDRB     R2,[R1, #+3]
+   \   00000020   0x0612             LSLS     R2,R2,#+24       ;; ZeroExtS R2,R2,#+24,#+16
+   \   00000022   0x0C12             LSRS     R2,R2,#+16
+   \   00000024   0x4310             ORRS     R0,R0,R2
+   \   00000026   0xB280             UXTH     R0,R0
+   \   00000028   0x2800             CMP      R0,#+0
+   \   0000002A   0xD110             BNE      ??USBD_EndPoint0_Setup_MSC_ReqToIF_3
+   \   0000002C   0x....             LDR      R1,??DataTable0
+   \   0000002E   0x7988             LDRB     R0,[R1, #+6]
+   \   00000030   0x79CA             LDRB     R2,[R1, #+7]
+   \   00000032   0x0612             LSLS     R2,R2,#+24       ;; ZeroExtS R2,R2,#+24,#+16
+   \   00000034   0x0C12             LSRS     R2,R2,#+16
+   \   00000036   0x4310             ORRS     R0,R0,R2
+   \   00000038   0xB280             UXTH     R0,R0
+   \   0000003A   0x2800             CMP      R0,#+0
+   \   0000003C   0xD107             BNE      ??USBD_EndPoint0_Setup_MSC_ReqToIF_3
+     45                    if (USBD_MSC_Reset()) {
+   \   0000003E   0x.... 0x....      BL       USBD_MSC_Reset
+   \   00000042   0x2800             CMP      R0,#+0
+   \   00000044   0xD003             BEQ      ??USBD_EndPoint0_Setup_MSC_ReqToIF_3
+     46                      USBD_StatusInStage();
+   \   00000046   0x.... 0x....      BL       USBD_StatusInStage
+     47                      return (__TRUE);
+   \   0000004A   0x2001             MOVS     R0,#+1
+   \   0000004C   0xE01E             B        ??USBD_EndPoint0_Setup_MSC_ReqToIF_4
+     48                    }
+     49                  }
+     50                  break;
+   \                     ??USBD_EndPoint0_Setup_MSC_ReqToIF_3: (+1)
+   \   0000004E   0xE01C             B        ??USBD_EndPoint0_Setup_MSC_ReqToIF_0
+     51                case MSC_REQUEST_GET_MAX_LUN:
+     52                  if ((USBD_SetupPacket.wValue   == 0) &&              /* GET_MAX_LUN with invalid parameters -> STALL */
+     53                      (USBD_SetupPacket.wLength  == 1)) {
+   \                     ??USBD_EndPoint0_Setup_MSC_ReqToIF_1: (+1)
+   \   00000050   0x....             LDR      R1,??DataTable0
+   \   00000052   0x7888             LDRB     R0,[R1, #+2]
+   \   00000054   0x78CA             LDRB     R2,[R1, #+3]
+   \   00000056   0x0612             LSLS     R2,R2,#+24       ;; ZeroExtS R2,R2,#+24,#+16
+   \   00000058   0x0C12             LSRS     R2,R2,#+16
+   \   0000005A   0x4310             ORRS     R0,R0,R2
+   \   0000005C   0xB280             UXTH     R0,R0
+   \   0000005E   0x2800             CMP      R0,#+0
+   \   00000060   0xD113             BNE      ??USBD_EndPoint0_Setup_MSC_ReqToIF_5
+   \   00000062   0x....             LDR      R1,??DataTable0
+   \   00000064   0x7988             LDRB     R0,[R1, #+6]
+   \   00000066   0x79CA             LDRB     R2,[R1, #+7]
+   \   00000068   0x0612             LSLS     R2,R2,#+24       ;; ZeroExtS R2,R2,#+24,#+16
+   \   0000006A   0x0C12             LSRS     R2,R2,#+16
+   \   0000006C   0x4310             ORRS     R0,R0,R2
+   \   0000006E   0xB280             UXTH     R0,R0
+   \   00000070   0x2801             CMP      R0,#+1
+   \   00000072   0xD10A             BNE      ??USBD_EndPoint0_Setup_MSC_ReqToIF_5
+     54                    if (USBD_MSC_GetMaxLUN()) {
+   \   00000074   0x.... 0x....      BL       USBD_MSC_GetMaxLUN
+   \   00000078   0x2800             CMP      R0,#+0
+   \   0000007A   0xD006             BEQ      ??USBD_EndPoint0_Setup_MSC_ReqToIF_5
+     55                      USBD_EP0Data.pData = USBD_EP0Buf;
+   \   0000007C   0x....             LDR      R0,??DataTable0_2
+   \   0000007E   0x....             LDR      R1,??DataTable0_3
+   \   00000080   0x6008             STR      R0,[R1, #+0]
+     56                      USBD_DataInStage();
+   \   00000082   0x.... 0x....      BL       USBD_DataInStage
+     57                      return (__TRUE);
+   \   00000086   0x2001             MOVS     R0,#+1
+   \   00000088   0xE000             B        ??USBD_EndPoint0_Setup_MSC_ReqToIF_4
+     58                    }
+     59                  }
+     60                  break;
+     61              }
+     62            }
+     63            return (__FALSE);
+   \                     ??USBD_EndPoint0_Setup_MSC_ReqToIF_5: (+1)
+   \                     ??USBD_EndPoint0_Setup_MSC_ReqToIF_0: (+1)
+   \   0000008A   0x2000             MOVS     R0,#+0
+   \                     ??USBD_EndPoint0_Setup_MSC_ReqToIF_4: (+1)
+   \   0000008C   0xBD02             POP      {R1,PC}          ;; return
+     64          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable0:
+   \   00000000   0x........         DC32     USBD_SetupPacket
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable0_1:
+   \   00000000   0x........         DC32     usbd_msc_if_num
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable0_2:
+   \   00000000   0x........         DC32     USBD_EP0Buf
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable0_3:
+   \   00000000   0x........         DC32     USBD_EP0Data
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   USBD_EndPoint0_Setup_MSC_ReqToIF
+         8   -> USBD_DataInStage
+         8   -> USBD_MSC_GetMaxLUN
+         8   -> USBD_MSC_Reset
+         8   -> USBD_StatusInStage
+       8   USBD_ReqClrFeature_MSC
+         8   -> USBD_MSC_ClrStallEP
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable0
+       4  ??DataTable0_1
+       4  ??DataTable0_2
+       4  ??DataTable0_3
+     142  USBD_EndPoint0_Setup_MSC_ReqToIF
+       8  USBD_ReqClrFeature_MSC
+
+ 
+ 166 bytes in section .text
+ 
+ 166 bytes of CODE memory
+
+Errors: none
+Warnings: 1
